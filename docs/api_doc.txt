@@ -1,0 +1,21 @@
+PIPs NECESSÁRIOS:
+
+    - cheque seus pips / opcional: pip freeze
+
+    pip install fastapi uvicorn[standard] sqlalchemy psycopg2
+
+RODANDO API:
+
+    uvicorn main:app --reload
+
+
+ACESSANDO LOCALHOST:
+
+    http://127.0.0.1:8000/
+
+
+ACESSANDO DOCUMENTAÇÃO: 
+    
+    http://127.0.0.1:8000/docs
+
+
