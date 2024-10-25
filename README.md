@@ -1,6 +1,8 @@
 # Jarvis API - Desafio
 
-Para executar a API, inicie rodando o arquivo `main`.
+- Para executar a API, inicie rodando o arquivo `main`.
+- Acesso à documentação `http://127.0.0.1:8000/docs`.
+- Pip's necessários: `pip install fastapi uvicorn[standard] sqlalchemy psycopg2`. 
 
 ## Exemplos de Requisições JSON para Endpoints
 
