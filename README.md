@@ -49,7 +49,7 @@ Para executar a API, inicie rodando o arquivo `main`.
   - **Corpo**:
     ```json
     {
-      "id_cliente": 2,
+      "id_cliente": 1,
       "nr_telefone": 998877665,
       "nr_ddd": 21,
       "ds_telefone": "Comercial"
