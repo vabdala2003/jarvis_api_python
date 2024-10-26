@@ -5,7 +5,7 @@ BASE_URL = "http://127.0.0.1:8000/jarvis"
 def test_listar_produtos():
     response = requests.get(f"{BASE_URL}/produtos")
     assert response.status_code == 200
-    assert isinstance(response.json(), list)  # Verifica se a resposta é uma lista de produtos
+    assert isinstance(response.json(), list)  
 
 def test_cadastrar_produto():
     novo_produto = {
