@@ -3,10 +3,6 @@ PIPs NECESSÁRIOS:
 
     pip install -r requirements.txt
 
-    ou
-
-    pip install fastapi uvicorn[standard] sqlalchemy psycopg2
-
 RODANDO API:
 
     uvicorn main:app --reload
