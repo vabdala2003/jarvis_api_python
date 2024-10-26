@@ -1,10 +1,10 @@
 # Jarvis API - Challenge Sprints
 
+- Pip's necessários: `pip install -r requirements.txt` 
 - Para executar a API, inicie rodando o arquivo `main`
 - Se API em execução
     - Acesso à documentação em `http://127.0.0.1:8000/docs`
     - Testes unitários com `pytest test_server.py` 
-- Pip's necessários: `pip install -r requirements.txt` 
 
 ## Exemplos de Requisições JSON para Endpoints
 
