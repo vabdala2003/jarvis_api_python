@@ -1,4 +1,4 @@
-# Jarvis API - Desafio
+# Jarvis API - Challenge Sprints
 
 - Para executar a API, inicie rodando o arquivo `main`
 - Se API em execução
