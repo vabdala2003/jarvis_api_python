@@ -1,6 +1,9 @@
+
 PIPs NECESSÁRIOS:
 
-    - cheque seus pips / opcional: pip freeze
+    pip install -r requirements.txt
+
+    ou
 
     pip install fastapi uvicorn[standard] sqlalchemy psycopg2
 
@@ -18,4 +21,6 @@ ACESSANDO DOCUMENTAÇÃO:
     
     http://127.0.0.1:8000/docs
 
+TESTANDO API
 
+    pytest test_server.py
