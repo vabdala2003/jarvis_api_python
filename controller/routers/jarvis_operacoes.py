@@ -53,6 +53,10 @@ class TelefoneRequest(BaseModel):
 
 # --------------------------------------------------------------------------------------------------------------
 
+@router.get("/")
+def api_working():
+    return "API está rodando."
+
 @router.get("/produtos", response_model=List[ProdutoResponse])
 def listar_produtos(db: Session = Depends(get_db)):
     produtos = db.query(Produto).all()  
